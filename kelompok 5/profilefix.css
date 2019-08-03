@@ -1,0 +1,273 @@
+body{
+  background-color: #f4f4f4;
+  font :15px Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+header .container{
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul{
+    margin: 0;
+    padding:0;
+}
+
+header{
+    background-color: #000;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 50px;
+    border-bottom: #00FFFF 3px solid;
+}
+
+header a{
+  color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+  
+}
+
+header li{
+    float: left;
+    display: block;
+    padding: 10px 25px 25px 15px;
+}
+
+header #logo{
+    float: left;
+}
+
+header #logo h1{
+    margin-top: 10px;
+    padding-top: 0px;
+}
+
+header nav{
+    float: right;
+    margin-top: 10px;
+}
+
+
+
+li a:hover, .dropdown:hover .dropbtn {
+  border-bottom: #00FFFF 1px solid; 
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.active {
+  color: #00FFFF;
+}
+
+.box {
+  width: 190px;
+  height: 11px;
+  padding-top: 12px;
+  margin-left: 40px;
+  
+
+}
+
+header .tombol {
+  height: 26px;
+  margin-top: 10px;
+margin-left: 10px;
+}
+
+
+
+
+
+/* Cardname */
+#cardname {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+#cardname .container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-gap: 10px;
+  background: transparent /*rgba(0, 0, 0, 0.39)*/;
+  padding: 10px;
+}
+
+#cardname .container > div {
+  background-color: /*transparent*/ rgba(255, 255, 255, 0.8);
+  text-align: left;
+  padding: 20px;
+  font-size: 14px;
+  color: black;
+}
+
+.card p, h1{
+  text-align: center;
+}
+
+.card img {
+  margin: 0% 19%;
+}
+
+#card1 {
+  grid-area: 1 / 1 / span 1 / span 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#card2 {
+  grid-area: 1 / 2 / span 1 / span 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#card3 {
+  grid-area: 1 / 3 / span 1 / span 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#card4 {
+  grid-area: 1 / 4 / span 1 / span 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+}
+
+#card5 {
+  grid-area: 1 / 5 / span 1 / span 1;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+} 
+
+/*(.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: 30px 20px;
+  padding-top: 5px;
+  text-align: center;
+}*/
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+ /* footer */
+#want{
+    height: 170px;
+    margin-top: 20px;
+    background-color: black;
+    
+}
+
+.title-want {
+  text-align: center;
+  margin-top: 0;
+  text-transform: uppercase;
+  color: white;
+  margin: auto;
+}
+
+.title-want h1{
+  font-family: courier new, monospace;
+  padding-top: 10px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.title-want p{
+  font-family: courier new, monospace;
+  margin-top: auto;
+  letter-spacing: 15px;
+}
+
+.wm {
+  text-align: center;
+  margin-top: 15px;
+  color: white;
+}
+
+.wm h1 {
+  padding-top: 15px;
+  letter-spacing: 3px;
+  margin-bottom: 3px;
+  font-size: 25px;
+}
+
+.wm p {
+  margin-top: auto;
+  letter-spacing: 1px;
+}

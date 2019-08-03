@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>sign up</title>
+  <link rel="stylesheet" href="signup.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script>
+    function myalert() {
+      if (confirm("Apakah kamu yakin?")) {
+        alert("Selamat akun anda berhasil dibuat")
+        window.location='home.html'
+      } else {
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <header>
+        <div class="container-header">
+            <div id="logo">
+                <h1>SIMPLY OUTFIT</h1>
+            </div>
+                <input class="box"type="text" name="pencarian">
+                <a href="pencarian.html"><input class="tombol" type="image" name="cari" src="img/search.png">
+                    </a>
+            <nav>
+                <ul>
+                    <li><a class="active" href="home.html">Home</a></li>
+                    <li><a href="about.html" >About us</a></li>
+                    <li>
+                        <a href="store.html">Store</a>
+                    </li>   
+                    <li><a href="kategori.html">Categories</a></li>
+                    <li class="dropdown">
+                        <a href="javascript:void(0)" class="dropbtn">
+                        Me</a>
+                        <div class="dropdown-content">
+                          <a href="profilefix.html">Profile</a>
+                          <a href="keranjangfix.html">My Cart</a>
+                          <a href="chat.html">Chat</a>
+                        </div>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+  <div class="container">
+    
+    <div class="content">
+      <div class="title">
+        Create an account
+      </div>
+      <div class="signup">
+        <div class="signup-button">
+          <input type="text" name="" placeholder="name">
+          <input type="text" name="" placeholder="email">
+          <input type="password" name="" placeholder="password">
+          <input type="password" name="" placeholder="confirm password">
+          <span>By Registering, you agree that you've read and accepted our a <a href="#">User Agreement</a>, you're at least 18 years old, and you consent to our <a href="#">Privacy Notice</a> and receiving marketing communications from us.</span>
+          <input type="submit" name="" value="Sign Up" onclick="myalert()">
+          <span>Do you have an account? <a href="signin.html">Sign in</a></span>
+        </div>
+        <div class="alternate-or">
+          <div class="line">
+          </div>
+          <div class="or">
+            or
+          </div>
+          <div class="line">
+          </div>
+        </div>
+        <div class="alternate">
+          <div class="alternate-button">
+            <a href="#" class="fb btn">
+              <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+            </a>
+            <a href="#" class="twitter btn">
+              <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+            </a>
+            <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+              </i> Login with Google
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
